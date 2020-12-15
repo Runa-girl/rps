@@ -1,0 +1,51 @@
+html {
+    background-color: #0c0c0c;
+    
+}
+.container {
+    margin: 150px;
+    background-color: #181818;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #007900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 30px;
+    font-family: 'Bangers', arial;
+    letter-spacing: 1px;
+    
+}
+.title {
+    color: #007900;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 1px  #00ff00;
+    
+}
+.choices {
+    color: #00ff00;
+    display: flex;
+    flex-direction: row;
+}
+.rockPic, .paperPic, .scissorsPic {
+    height: 50%;
+}
+
+#rock, #paper, #scissors {
+    margin: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: #007900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#rock:hover, #paper:hover, #scissors:hover {
+    border-color: #00ff00;
+    color: #00ff00;
+}
