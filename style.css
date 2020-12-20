@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'eurostile';
+    src: url('eurostile_extended_black.ttf');
+    font-family: 'pong';
+    src: url('font.ttf');
+}
 html {
     background-color: #0c0c0c;
     margin: 150px;
@@ -14,9 +20,7 @@ html {
     align-items: center;
     justify-content: center; 
     padding: 30px;
-    font-family: 'Bangers', arial;
-    letter-spacing: 1px;
-    
+    font-family: 'eurostile', arial;    
 }
 h1 {
     color: #007900;
@@ -67,8 +71,7 @@ h1 {
     align-items: center;
     flex-grow: 1;
     padding: 30px;
-    font-family: 'Bangers', arial;
-    letter-spacing: 1px;
+    font-family: 'eurostile', Arial;
     height: 320px;
 }
 .computer {
@@ -83,9 +86,21 @@ h1 {
     align-items: center;
     flex-grow: 1;
     padding: 30px;
-    font-family: 'Bangers', arial;
-    letter-spacing: 1px;
+    font-family: 'eurostile', Arial;
     height: 320px;
+}
+.choice {
+    width: 125px;
+    height: 188px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .score {
     margin-bottom: 30px;
@@ -98,6 +113,15 @@ h1 {
     flex-direction: column;
     align-items: center; 
     padding: 30px;
-    font-family: 'Bangers', arial;
-    letter-spacing: 1px;
+    font-family: 'eurostile', arial;
+}
+.counter {
+    height: 40px;
+    width: 100px;
+    color:#00ff00; 
+    background-color: #0c0c0c;
+    font-family: pong, Arial;display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
