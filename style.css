@@ -120,7 +120,8 @@ h1 {
     width: 100px;
     color:#00ff00; 
     background-color: #0c0c0c;
-    font-family: pong, Arial;display: flex;
+    font-family: pong, Arial;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
