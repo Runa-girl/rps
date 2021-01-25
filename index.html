@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Rock! Paper! Scissors!</title>
     <meta charset="UTF-8"/>
@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id=title>
         <h1 class="title">Rock! Paper! Scissors! Go!</h1>
         <div class="choices">
             <div id="rock">
@@ -25,17 +25,17 @@
             </div> 
         </div>
     </div>
-    <div class="game">
-        <div class="player">
+    <div class="choices" id="game">
+        <div class="container" id="player">
             <h1>Your move!</h1>
-            <div class="choice" id="player"></div>
+            <div class="choice" id="empty"></div>
         </div>
-        <div class="computer">
+        <div class="container" id="computer">
             <h1>Computer's move!</h1>
-            <div class="choice" id="computer"></div>
+            <div class="choice" id="empty"></div>
         </div>
     </div>
-    <div class="score">
+    <div class="container" id="score">
         <h1>Scoreboard</h1>
         <div class="counter">
             <h2 class="playerscore">0</h2>
